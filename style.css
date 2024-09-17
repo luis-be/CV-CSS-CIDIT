@@ -6,8 +6,13 @@ body {
   font-size: 24px;
   color: #fbe9d0;
 }
-header {
-  display: flex;
+.intro {
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 img {
@@ -20,13 +25,16 @@ a {
 }
 
 .trabajos {
+  display: inline-block;
+  width: 40%;
   border: 1px;
   border-style: solid;
   border-color: white;
 }
 
 .estudios {
-  display: flex;
+  display: inline-block;
+  width: 50%;
   border: 1px;
   border-style: solid;
   border-color: white;
@@ -36,6 +44,7 @@ a {
   border: 1px;
   border-style: solid;
   border-color: white;
+  columns: 2;
 }
 
 .contacto {
@@ -43,12 +52,15 @@ a {
   border-style: solid;
   border-color: white;
 }
+
 table,
 td,
 th,
 tr {
   border: 1px;
-  border-style: dashed;
+  width: 60%;
+  font-size: 32px;
+  border-style: solid;
   border-color: #e64833;
 }
 
