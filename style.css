@@ -1,0 +1,66 @@
+body {
+  background-color: #244855;
+  display: block;
+  line-height: 1;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #fbe9d0;
+}
+header {
+  display: flex;
+}
+
+img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+a {
+  color: #e64833;
+}
+
+.trabajos {
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.estudios {
+  display: flex;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.habilidades {
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.contacto {
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
+table,
+td,
+th,
+tr {
+  border: 1px;
+  border-style: dashed;
+  border-color: #e64833;
+}
+
+h2,
+h3 {
+  color: #90aead;
+}
+
+footer {
+  background-color: #e64833;
+}
+
+footer a {
+  color: black;
+}
