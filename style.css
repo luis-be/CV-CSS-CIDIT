@@ -1,78 +1,134 @@
 body {
   background-color: #244855;
-  display: block;
-  line-height: 1;
   font-family: "Arial", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #fbe9d0;
-}
-.intro {
-  border: 1px;
-  border-style: solid;
-  border-color: white;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
 }
 
-img {
-  width: 15%;
-  border-radius: 50%;
-}
-
-a {
-  color: #e64833;
-}
-
-.trabajos {
-  display: inline-block;
-  width: 40%;
-  border: 1px;
-  border-style: solid;
-  border-color: white;
-}
-
-.estudios {
-  display: inline-block;
-  width: 50%;
-  border: 1px;
-  border-style: solid;
-  border-color: white;
-}
-
-.habilidades {
-  border: 1px;
-  border-style: solid;
-  border-color: white;
-  columns: 2;
-}
-
-.contacto {
-  border: 1px;
-  border-style: solid;
-  border-color: white;
-}
-
-table,
-td,
-th,
-tr {
-  border: 1px;
-  width: 60%;
-  font-size: 32px;
-  border-style: solid;
-  border-color: #e64833;
-}
-
+h1,
 h2,
 h3 {
   color: #90aead;
 }
 
-footer {
+body h2 {
+  color: #e64833;
+  text-decoration: none;
+}
+
+body h2:hover {
+  transition: 0.5s;
+  color: aqua;
+  text-decoration: underline;
+}
+
+a {
+  color: #ceaba6;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: aqua;
+  text-decoration: underline;
+}
+
+.intro {
+  border: 2px solid white;
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+section {
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 20px;
+  border: 2px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #2a5b66;
+  border-radius: 10px;
+}
+
+section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.contacto table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.contacto th,
+.contacto td {
+  border: 1px solid #e64833;
+  padding: 10px;
+  text-align: left;
+}
+
+.contacto th {
   background-color: #e64833;
+  color: #fff;
+}
+
+.contacto td a {
+  color: #e64833;
+}
+
+.contacto td a:hover {
+  transition: 0.3s;
+  color: #fbe9d0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e64833;
+  margin-top: 40px;
+  color: black;
 }
 
 footer a {
   color: black;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 30%;
+  }
+
+  section {
+    width: 90%;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 16px;
+  }
+
+  .trabajos,
+  .estudios,
+  .habilidades {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
